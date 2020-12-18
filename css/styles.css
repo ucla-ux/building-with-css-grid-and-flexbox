@@ -142,14 +142,6 @@ header .logo {
 }
 
 /* CARDS */
-
-.basic-card {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-template-rows: auto;
-  grid-gap: 2vh 2vw;
-}
-
 .basic-card > * {
   background: linear-gradient(#2774ae, #005587);
   color: white;
@@ -162,6 +154,13 @@ header .logo {
 
 .basic-card__info-wrapper {
   padding: 2rem;
+}
+
+.optimists {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 2vh 2vw;
 }
 
 .coaching > * {
