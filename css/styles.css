@@ -133,7 +133,7 @@ header .logo {
 @media (min-width: 64em) {
   .hero .ribbon {
     bottom: 30%;
-    left: 20%;
+    left: 22%;
   }
 }
 
@@ -172,25 +172,7 @@ header .logo {
   padding: 2rem;
 }
 
-/* flexbox example
-.coaching {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
-  gap: 2vh 2vw;
-
-
-  > * {
-    flex-basis: 40%;
-    min-width: 16rem;
-    flex-grow: 1;
-  }
-
-}
-
- */
-/* css grid example */
+/* css grid example*/
 .coaching {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

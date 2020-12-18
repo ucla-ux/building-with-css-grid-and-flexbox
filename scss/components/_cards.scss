@@ -32,27 +32,8 @@
 .coaching figcaption {
   padding: $ucla-spacing-xx-large;
 }
-
-/* flexbox example
-.coaching {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
-  gap: 2vh 2vw;
-
-
-  > * {
-    flex-basis: 40%;
-    min-width: 16rem;
-    flex-grow: 1;
-  }
-  
-}
-
- */
  
-/* css grid example */
+/* css grid example*/
 .coaching {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -60,5 +41,21 @@
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   }
   grid-gap: 2vh 2vw;
-
 }
+ 
+
+
+// .coaching {
+//   display: flex;
+//   flex-wrap: wrap;
+//   margin-left: auto;
+//   margin-right: auto;
+//   gap: 2vw;
+
+//   > * {
+//     flex-basis: 40%;
+//     min-width: 16rem;
+//     flex-grow: 1;
+//   }
+  
+// }
