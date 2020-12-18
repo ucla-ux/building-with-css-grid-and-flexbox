@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css">
     <title>Building a layout with Flexbox and CSS Grid</title>
+    <link rel="stylesheet"
+        href="https://unpkg.com/splitting/dist/splitting.css" />
+      <link rel="stylesheet"
+        href="https://unpkg.com/splitting/dist/splitting-cells.css" />
   </head>
 
   <body>
@@ -29,20 +33,8 @@
     <figure class="hero">
       <img src="img/home-hero-desktop.jpg" alt="">
       <figcaption data-splitting class="chars rows splitting ribbon">
-
         “Life is short, don't wait to dance”
       </figcaption>
-
-      <link rel="stylesheet"
-        href="https://unpkg.com/splitting/dist/splitting.css" />
-      <link rel="stylesheet"
-        href="https://unpkg.com/splitting/dist/splitting-cells.css" />
-      <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
-
-      <script>
-        Splitting();
-
-      </script>
     </figure>
 
     <main role="main">
@@ -189,6 +181,13 @@
         <li><a href="https://scottgruber.me">Scott Gruber</a></li>
       </ul>
     </footer>
+
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+
+      <script>
+        Splitting();
+
+      </script>
   </body>
 
 </html>
