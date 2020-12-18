@@ -1,0 +1,233 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #1a1a1a;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.375rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.wrapper {
+  max-width: 90rem;
+  padding: 0 2rem;
+  margin: 1.75rem auto;
+}
+
+/* HEADER AND NAV */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0 1rem;
+  padding: 0 1.5rem;
+  margin: 1.5rem auto;
+  max-width: 90rem;
+}
+
+header .logo {
+  max-width: 400px;
+  margin-bottom: 0.75rem;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #2774ae;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.nav li {
+  margin: 0.25rem;
+}
+.nav a {
+  text-decoration: none;
+  color: currentColor;
+}
+.nav a:hover, .nav a[aria-current=page] {
+  text-decoration: underline;
+}
+
+/* HERO IMAGE */
+.hero {
+  display: grid;
+  position: relative;
+}
+
+.hero img {
+  grid-row: 1;
+  z-index: 0;
+  width: 100vw;
+  min-height: 500px;
+  object-fit: cover;
+  object-position: right top;
+}
+
+.hero .ribbon {
+  grid-row: 1;
+  z-index: 1;
+  position: absolute;
+  bottom: 10%;
+  left: 3vw;
+}
+@media (min-width: 64em) {
+  .hero .ribbon {
+    bottom: 30%;
+    left: 10vw;
+  }
+}
+
+.hero figcaption {
+  max-width: 60ch;
+}
+
+/* CARDS */
+
+.basic-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 2vh 2vw;
+}
+
+.basic-card > * {
+  background: linear-gradient(#2774ae, #005587);
+  color: white;
+}
+
+.basic-card > *:nth-child(even) {
+  background: #e5e5e5;
+  color: initial;
+}
+
+.basic-card__info-wrapper {
+  padding: 2rem;
+}
+
+.coaching > * {
+  background-color: #2774ae;
+  color: #fff;
+}
+
+.coaching figcaption {
+  padding: 2rem;
+}
+
+/* flexbox example
+.coaching {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2vh 2vw;
+
+
+  > * {
+    flex-basis: 40%;
+    min-width: 16rem;
+    flex-grow: 1;
+  }
+
+}
+
+ */
+/* css grid example */
+.coaching {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2vh 2vw;
+}
+@media (min-width: 48em) {
+  .coaching {
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  }
+}
+
+/* splitting.js css propoerties set here used for the ribbon https://splitting.js.org */
+.word {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.25rem;
+  padding: 0.25em;
+  color: #fff;
+  line-height: 1.125;
+  text-transform: uppercase;
+  background-color: #2774ae;
+}
+@media (min-width: 30em) {
+  .word {
+    font-size: 2.25rem;
+  }
+}
+@media (min-width: 64em) {
+  .word {
+    font-size: 3rem;
+  }
+}
+
+.whitespace {
+  margin: -7px;
+  padding: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

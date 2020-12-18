@@ -1,0 +1,151 @@
+// ========================================== */
+// SCSS Variables 
+// ========================================== */
+
+$ucla-font-family: Helvetica, Arial, sans-serif;
+
+// PRIMARY COLORS
+$ucla-blue: #2774ae;
+$ucla-gold: #ffd100;
+$ucla-white: #fff;
+
+// SECONDARY COLORS
+$ucla-darker-blue: #005587;
+$ucla-darkest-blue: #003b5c;
+
+// OPAQUE COLORS
+$ucla-default-blue-opaque: rgba(0, 89, 140, 0.85);
+$ucla-default-blue-opaque-hover: rgba(0, 121, 191, 0.85);
+
+// Blacks
+$ucla-black-100: #000;
+$ucla-black-90: #1a1a1a;
+$ucla-black-80: #333; //$ucla-grey-80:
+$ucla-black-70: #4d4d4d;
+$ucla-black-60: #666; //$ucla-grey-60
+$ucla-black-50: #808080;
+$ucla-black-40: #999; //$ucla-grey-40
+$ucla-black-30: #b3b3b3;
+$ucla-black-20: #ccc;
+$ucla-black-10: #e5e5e5; //#e6e6e6
+$ucla-black-5: #f2f2f2;
+
+// DEPRECATED COLORS
+$ucla-lightest-blue: #daebfe;
+$ucla-lighter-blue: #8bb8e8;
+$ucla-darker-gold: #ffc72c;
+$ucla-darkest-gold: #ffb81c;
+  
+// Theme Colors
+$text-color: $ucla-black-90;
+
+// Type scale 1.5 based on 16px base font
+// FONT SIZES CONVERTED FROM PX TO REM
+$ucla-font-size-x-display: 4.5rem;
+$ucla-font-size-display: 3.375rem; 
+$ucla-font-size-xx-large: 3rem; //48px
+$ucla-font-size-x-large: 2.25rem; //36px
+$ucla-font-size-large: 1.5rem; //24px
+$ucla-font-size-x-medium: 1.25rem; //20px;
+$ucla-font-size-medium: 1.125rem; //18px
+$ucla-font-size: 1rem; //16px
+$ucla-font-size-small: 0.833rem; // 12.8px
+$ucla-font-size-x-small: .75rem; //12px
+$ucla-font-size-xx-small: 0.694rem; // 11.111px
+
+$ucla-line-height: 1.5; // 150%
+$ucla-line-height-display: 1.125; //112.5%
+$ucla-line-height-alt: 1.25; //125%
+$ucla-line-height-min: 1;
+
+$ucla-border-width: 4px;
+
+// Spacing based on units of 4
+$ucla-spacing-xx-small: 0.125rem; // 2px
+$ucla-spacing-x-small: 0.25rem; // 4px
+$ucla-spacing-small: 0.5rem; // 8px
+$ucla-spacing: 0.75rem; // 12px
+$ucla-spacing-medium: 1rem; // 16px
+$ucla-spacing-x-medium: 1.25rem; // 20px
+$ucla-spacing-large: 1.5rem; // 24px
+$ucla-spacing-x-large: 1.75rem; // 28px;
+$ucla-spacing-xx-large: 2rem; // 32px
+$ucla-spacing-xxx-large: 3rem; // 48px
+
+// Breakpoints relative to 16px base font
+$ucla-bp-x-small: 18.75em; //300px
+$ucla-bp-small: 30em; //480px
+$ucla-bp-medium: 48em; // 768px;
+$ucla-bp-large: 64em; // 1024px
+$ucla-bp-x-large: 75em; // 1200px;
+$ucla-bp-xx-large: 87.5rem; //1400px;
+
+$max-width: 90rem;
+
+// unused breakpoints
+// 600px     37.5em
+// 992px 	   62em
+// 1220px    76.250em
+// 1382px	   86.375em
+
+// LINK STATE COLORS
+$ucla-default-state: #00598c;
+$ucla-hover-state: #0079bf;
+$ucla-active-state: #003b5c;
+$ucla-focus-state: #0079bf;
+$ucla-disabled-state: #757575;
+$ucla-visited-state: #5223b0;
+
+$ucla-default-state-dark: $ucla-gold;
+$ucla-hover-state-dark: #ffe500;
+$ucla-active-state-dark: #ffbf0f;
+$ucla-focus-state-dark: $ucla-hover-state-dark;
+$ucla-disabled-state-dark: $ucla-black-10;
+$ucla-visited-state-dark: #cfc3f3;
+
+// DENOTIVE COLORS
+$ucla-error-red: #d60000;
+$ucla-error-red-20: #f7cccc;
+$ucla-success-green: #007339;
+$ucla-success-green-20: #cce3d7;
+$ucla-warning-orange: #f57f17;
+$ucla-warning-orange-20: #fde5d1;
+$ucla-primary-alert-blue: #8bb8e8;
+$ucla-primary-alert-blue-20: #e8f1fa;
+$ucla-secondary-alert-grey: $ucla-black-40;
+$ucla-secondary-alert-grey-10: $ucla-black-10;
+
+// BUTTON COLORS
+$ucla-button-hover: #ffe500;
+$ucla-button-active: #ffbf0f;
+
+//Emergency Colors
+$ucla-emergency-bg: #f7cccc;
+$ucla-emergency-bg-light: #e5e5e5;
+$ucla-emergency-border: #d60000;
+
+
+
+
+$font-family-system: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+$font-family-mono: Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace;
+
+$border-width-hairline: 1px;
+$border-width-thin: 2px;
+
+$border-radius-x-small: .25rem;
+$border-radius-small: .5rem;
+$border-radius-medium: .75rem;
+$border-radius-large: 1rem;
+$border-radius-circle: 50%;
+
+
+// Font Weights //
+$font-weight-thin: 100;
+$font-weight-light: 300;
+$font-weight: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-xbold: 800;
+$font-weight-black: 900;

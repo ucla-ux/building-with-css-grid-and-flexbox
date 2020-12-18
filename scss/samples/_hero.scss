@@ -1,0 +1,32 @@
+/* HERO IMAGE */
+
+.hero {
+  display: grid;
+  position: relative;
+}
+
+.hero img {
+  grid-row: 1;
+  z-index: 0;
+  width: 100vw;
+  min-height: 500px;
+  object-fit: cover;
+  object-position: right top;
+}
+
+.hero .ribbon {
+  grid-row: 1;
+  z-index: 1;
+  position: absolute;
+  bottom: 10%;
+  left: 3vw;
+  @media (min-width: $ucla-bp-large) {
+    bottom: 30%;
+    left: 10vw;
+  }
+}
+
+.hero figcaption {
+  max-width: 60ch;
+}
+

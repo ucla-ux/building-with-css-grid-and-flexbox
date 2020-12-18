@@ -1,0 +1,48 @@
+/* HEADER AND NAV */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0 1rem;
+  padding: 0 $ucla-spacing-large;
+  margin: $ucla-spacing-large auto;
+  max-width: $max-width;
+}
+
+header .logo {
+  max-width: 400px;
+  margin-bottom: $ucla-spacing;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: $ucla-blue;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  // Tiny gap for where gap isn't supported
+  li {
+    margin: 0.25rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: currentColor;
+
+    &:hover,
+    &[aria-current='page'] {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+
+

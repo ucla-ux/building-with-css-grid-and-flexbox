@@ -1,0 +1,64 @@
+/* CARDS */
+
+
+
+.basic-card > * {
+  background: linear-gradient($ucla-blue, $ucla-darker-blue);
+  color: white;
+}
+
+.basic-card > *:nth-child(even) {
+  background: $ucla-black-10;
+  color: initial;
+}
+
+.basic-card__info-wrapper {
+  padding: $ucla-spacing-xx-large;
+}
+
+.optimists {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 2vh 2vw;
+}
+
+
+.coaching > * {
+  background-color: $ucla-blue;
+  color: $ucla-white;
+}
+
+.coaching figcaption {
+  padding: $ucla-spacing-xx-large;
+}
+
+/* flexbox example
+.coaching {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2vh 2vw;
+
+
+  > * {
+    flex-basis: 40%;
+    min-width: 16rem;
+    flex-grow: 1;
+  }
+  
+}
+
+ */
+ 
+/* css grid example */
+.coaching {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  @media (min-width: $ucla-bp-medium) {
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  }
+  grid-gap: 2vh 2vw;
+
+}

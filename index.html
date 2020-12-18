@@ -1,0 +1,193 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Building a layout with Flexbox and CSS Grid</title>
+  </head>
+
+  <body>
+    <header role="banner">
+      <img class="logo" src="img/ucla-ioes-logo.svg"
+        alt="UCLA Institute of the Environment and Sustainability">
+      <nav role="navigation">
+        <ul class="nav" role="list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">People</a></li>
+          <li><a href="#">Academics</a></li>
+          <li><a href="#">Research</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Support Us</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <figure class="hero">
+      <img src="img/home-hero-desktop.jpg" alt="">
+      <figcaption data-splitting class="chars rows splitting ribbon">
+
+        “Life is short, don't wait to dance”
+      </figcaption>
+
+      <link rel="stylesheet"
+        href="https://unpkg.com/splitting/dist/splitting.css" />
+      <link rel="stylesheet"
+        href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+      <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+
+      <script>
+        Splitting();
+
+      </script>
+    </figure>
+
+    <main role="main">
+
+      <div class="wrapper coaching">
+
+        <article>
+          <figure>
+            <img src="img/wooden-large-retina.jpg" alt="">
+            <figcaption>
+              <h2>Coach John Wooden</h2>
+              <p>A coach is someone who can give correction without causing
+                resentment. If you don’t have time to do it right, when
+                will you have time to do it over?</p>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article>
+          <figure>
+            <img src="img/field-large-retina.jpg" alt="">
+            <figcaption>
+              <h2>Coach Valorie Kondos Field</h2>
+              <p>Life is short, don't wait to dance. The “art of the Ask” is one
+                of
+                the most important skills to master in choreographing your life.
+              </p>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article>
+          <img src="img/cari-close.jpg" alt="">
+          <figure>
+            <figcaption>
+              <h2>Coach Cari Close</h2>
+              <p>When you get tired of growing, then you’re just done</p>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article>
+          <img src="img/tasha-brown.jpg" alt="">
+          <figure>
+            <figcaption>
+              <h2>Coach Tasha Brown</h2>
+              <p>Connect yourself with people that will help shoulder the
+                burden, not just celebrate the victories.</p>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+
+      <div class="wrapper optimists basic-card">
+
+        <article>
+          <img src="img/bunche-large-retina.jpg" alt="">
+          <div class="basic-card__info-wrapper">
+            <h2>Ralph Bunche</h2>
+            <p>First African-American Nobel Prize winner, acclaimed diplomat,
+              political scientist</p>
+          </div>
+        </article>
+
+        <article>
+          <img src="img/burrell-large-retina.jpg" alt="">
+          <div class="basic-card__info-wrapper">
+            <h2>Kenny Burrell</h2>
+            <p>Jazz master, music education trailblazerr</p>
+          </div>
+        </article>
+        
+        <article>
+          <img src="img/cerf-large-retina.jpg" alt="">
+          <div class="basic-card__info-wrapper">
+            <h2>Vinton Cerf</h2>
+            <p>Computer scientist, technology visionary, father of the Internet
+            </p>
+          </div>
+        </article>
+        
+        <article>
+          <img src="img/davis-large-retina.jpg" alt="">
+          <div class="basic-card__info-wrapper">
+            <h2>Angela Davis</h2>
+            <p>Writer, educator, agitator</p>
+          </div>
+        </article>
+        
+        <article>
+          <img src="img/fisher-large-retina.jpg" alt="">
+          <div class="basic-card__info-wrapper">
+            <h2>Anna Lee Fisher</h2>
+            <p>Astronaut, doctor, first mother in space</p>
+          </div>
+        </article>
+        
+        <article>
+          <img src="img/herrera-large-retina.jpg" alt="">
+          <div class="basic-card__info-wrapper">
+            <h2>Juan Felipe Herrera</h2>
+            <p>First Latino Poet Laureate of the U.S., performance artist,
+              activist</p>
+          </div>
+        </article>
+        
+        <article>
+          <img src="img/dave-roberts-large-retina.jpg" alt="">
+          <div class="basic-card__info-wrapper">
+            <h2>Dave Roberts</h2>
+            <p>World Series champ, major league manager, record setter</p>
+          </div>
+        </article>
+        
+        <article>
+          <img src="img/venzon-large-retina.jpg" alt="">
+          <div class="basic-card__info-wrapper">
+            <h2>Mericien Venzon</h2>
+            <p>Skater and science researcher</p>
+          </div>
+        </article>
+
+        <article>
+          <img src="img/washington-large-retina.jpg" alt="">
+          <div class="basic-card__info-wrapper">
+            <h2>Lula Washington</h2>
+            <p>Dancer, choreographer, educator, community leader</p>
+          </div>
+        </article>
+
+      </div>
+
+    </main>
+
+
+    <footer role="contentinfo">
+      <h4>UCLA UX</h4>
+      <ul>
+        <li><a href="https://webcomponents.ucla.edu">webcomponents.ucla.edu</a></li>
+        <li><a href="https://ucla-ux.github.io">ucla-ux.github.io</a></li>
+        <li><a href="https://github.com/ucla-ux/design-system-resources">Design
+            Systems Resources</a></li>
+        <li><a href="https://github.com/ucla-ux/">On GitHub</a></li>
+      </ul>
+    </footer>
+  </body>
+
+</html>

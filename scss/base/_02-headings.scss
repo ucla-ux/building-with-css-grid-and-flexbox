@@ -1,0 +1,35 @@
+//  =====================================================
+//  HTML Living Standard
+//  Heading elements (part of section elements)
+//  https://html.spec.whatwg.org/multipage/sections.html
+//  h1, h2, h3, h4, h5, h6
+//  ===================================================== 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $font-weight-bold;
+  line-height: $ucla-line-height-alt;
+  margin: 0;
+}
+
+h1 {
+  font-size: $ucla-font-size-display;
+}
+
+h2 {
+  font-size: $ucla-font-size-large;
+}
+
+h3 {
+  font-size: $ucla-font-size-medium;
+  
+}
+
+h4 {
+  font-size: $ucla-font-size;
+}
+

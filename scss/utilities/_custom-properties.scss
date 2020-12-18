@@ -1,0 +1,84 @@
+// CSS Custom Properties 
+
+:root {
+
+  --ucla-font-family: Helvetica, Arial, sans-serif;
+
+  // PRIMARY COLORS
+  --ucla-gold: #ffd100;
+  --ucla-blue: #2774ae;
+  --ucla-white: #fff;
+
+  // SECONDARY COLORS
+  --ucla-darker-blue: #005587;
+  --ucla-darkest-blue: #003b5c;
+
+  // OPAQUE COLORS
+  --ucla-default-blue-opaque: rgba(0, 89, 140, 0.85);
+  --ucla-default-blue-opaque-hover: rgba(0, 121, 191, 0.85);
+
+  // BLACKS
+  --ucla-black-100: #000;
+  --ucla-black-90: #1a1a1a;
+  --ucla-black-80: #333;
+  --ucla-black-70: #4d4d4d;
+  --ucla-black-60: #666;
+  --ucla-black-50: #808080;
+  --ucla-black-40: #999;
+  --ucla-black-30: #b3b3b3;
+  --ucla-black-20: #ccc;
+  --ucla-black-10: #e6e6e6;
+  --ucla-black-5: #f2f2f2;
+
+  // DEPRECATED COLORS
+  --ucla-lightest-blue: #daebfe;
+  --ucla-lighter-blue: #8bb8e8;
+  --ucla-darker-gold: #ffc72c;
+  --ucla-darkest-gold: #ffb81c;
+
+  // Theme Colors
+  --text-color: var(--ucla-black-90);
+
+  // Type scale 1.5 based on 16px base font
+  // FONT SIZES CONVERTED FROM PX TO REM
+  --ucla-font-size-x-display: 4.5rem; 
+  --ucla-font-size-display: 3.375rem; 
+  --ucla-font-size-xx-large: 3rem; //48px
+  --ucla-font-size-x-large: 2.25rem; //36px
+  --ucla-font-size-large: 1.5rem; //24px
+  --ucla-font-size-x-medium: 1.25rem; //20px;
+  --ucla-font-size-medium: 1.125rem; //18px
+  --ucla-font-size: 1rem; //16px
+  --ucla-font-size-small: .833rem; //12.8px
+  --ucla-font-size-x-small: .75rem; //12px
+  --ucla-font-size-xx-small: 0.694rem; // 11.111px
+
+  --ucla-line-height: 1.5; // 150%
+  --ucla-line-height-display: 1.125; //112.5%
+  --ucla-line-height-alt: 1.25; //125%
+  --ucla-line-height-min: 1;
+
+  --ucla-border-width: 4px;
+
+  // Spacing based on units of 4
+  --ucla-spacing-xx-small: 0.125rem; // 2px
+  --ucla-spacing-x-small: .25rem; // 4px
+  --ucla-spacing-small: .5rem; // 8px
+  --ucla-spacing: .75rem; // 12px
+  --ucla-spacing-medium: 1rem; // 16px
+  --ucla-spacing-x-medium: 1.25rem; // 20px
+  --ucla-spacing-large: 1.5rem; // 24px
+  --ucla-spacing-x-large: 1.75rem; // 28px;
+  --ucla-spacing-xx-large: 2rem; // 32px
+  --ucla-spacing-xxx-large: 3rem; // 48px
+
+  // Breakpoints relative to 16px base font
+  --ucla-bp-x-small: 18.75em; //300px
+  --ucla-bp-small: 30em; //480px
+  --ucla-bp-medium: 48em; // 768px;
+  --ucla-bp-large: 64em; // 1024px
+  --ucla-bp-x-large: 75em; // 1200px;
+  --ucla-bp-xx-large: 87.5rem; //1400px;
+
+  --ucla-max-width: 90rem;
+}
