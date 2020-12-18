@@ -128,12 +128,12 @@ header .logo {
   z-index: 1;
   position: absolute;
   bottom: 10%;
-  left: 3vw;
+  left: 10%;
 }
 @media (min-width: 64em) {
   .hero .ribbon {
     bottom: 30%;
-    left: 10vw;
+    left: 20%;
   }
 }
 
